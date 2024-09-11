@@ -8,3 +8,34 @@ iframe {
   width: 100%;
   flex-grow: 1;
 }
+
+
+#devis {
+  width: 70vw;
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    width: 100%;
+    &:last-of-type {
+      text-align: right;
+    }
+  }
+  table {
+    border: 1px solid black;
+    width: 90%;
+
+    thead {
+      background-color: blue;
+      color: white;
+    }
+  }
+
+  footer {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+  }
+}
