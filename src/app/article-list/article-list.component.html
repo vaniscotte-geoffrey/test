@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let article of articles" (click)="addToDevis(article)">
+    <h1>{{ article.name }}</h1>
+    <span>{{ article.prix }}</span>
+  </li>
+</ul>
+
+<a routerLink="/devis">go to devis</a>

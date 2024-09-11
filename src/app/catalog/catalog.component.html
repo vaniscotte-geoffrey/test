@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let c of catalogs" (click)="goToCatalog(c)">
+    <h1>{{ c.name }}</h1>
+    <span>{{ c.articles.length }} elements</span>
+  </li>
+</ul>
