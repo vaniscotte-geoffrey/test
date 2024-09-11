@@ -22,7 +22,6 @@
     "@capacitor/android": "^6.1.2",
     "@capacitor/core": "^6.1.2",
     "@capacitor/geolocation": "^6.0.1",
-    "capacitor-pdf-viewer-plugin": "^1.0.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
     "ng2-pdf-viewer": "^10.3.0",
